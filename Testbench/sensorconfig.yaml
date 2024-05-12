@@ -1,0 +1,41 @@
+sensors:
+  - label: Imu0
+    device_id: AL30G25004
+    sensor_type: imu_ins
+    pos_meter: [0.000, 0.000, 0.000]
+    yaw_pitch_roll_deg: [0.000, 0.000, 0.000]
+  - label: gps
+    device_id: test_gps
+    sensor_type: gps_ins
+    pos_meter: [-0.078, -0.113, 0.533]
+    yaw_pitch_roll_deg: [-0.444, 1.785, 0.253]
+  - label: F_LRR_C
+    device_id: 34300
+    sensor_type: radar
+    host_ip: 192.168.2.20
+    fw_version: 1.5
+    pos_meter: [3.837, -0.002, 0.327]
+    yaw_pitch_roll_deg: [0.346, 0.615, -0.282]
+  - label: B_LRR_C
+    device_id: 34301
+    sensor_type: radar
+    host_ip: 192.168.3.20
+    fw_version: 1.0
+    pos_meter: [-1.114, 0.002, 0.552]
+    yaw_pitch_roll_deg: [-179.464, 1.871, 0.175]
+  - label: B_MIDRANGECAM_C
+    device_id: TE10000
+    sensor_type: camera
+    camera_link_id: 2
+    image_resolution_px: [2896, 1876]
+    model: mei
+    pos_meter: [-0.122, 0.003, 1.280]
+    yaw_pitch_roll_deg: [-179.785, -0.731, -0.452]
+  - label: F_FISHEYE_C
+    device_id: TE20000
+    sensor_type: camera
+    camera_link_id: 12
+    image_resolution_px: [2896, 1876]
+    model: mei
+    pos_meter: [1.708, 0.609, 1.361]
+    yaw_pitch_roll_deg: [-45.352, -0.449, 1.182]
